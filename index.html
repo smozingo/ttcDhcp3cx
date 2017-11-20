@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>3CX DHCP Processor</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <header>
+            <img src="img/logo.png" />
+        </header>
+
+        <div class="container">
+            <div>
+                <h1>3CXDHCPPW</h1>
+            </div>
+
+            <div id="csvUpload" class="selector ">
+                <label for="csvFileUpload" class="custom-file-upload">1: Upload your 3CX csv File</label>
+                <input type="file" name="File Upload" id="csvFileUpload" accept=".csv" />
+
+            </div>
+
+            <div id="dhcpUpload" class="selector">
+                <label for="dhcpFileUpload" class="custom-file-upload">2: Upload your DHCP file</label>
+                <input type="file" name="DHCP Upload" id="dhcpFileUpload" accept=".txt" />
+            </div>
+
+            <div class="selector">
+                <div id="resultFile" class="custom-file-upload"></div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

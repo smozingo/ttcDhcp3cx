@@ -1,0 +1,74 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: Arial;
+    color: #B9D029;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    letter-spacing: 1.2em;
+    text-align: center;
+    font-weight: 100;
+}
+
+header {
+    background-color: #B9D029;
+    padding: 5px;
+    box-shadow: 0 0 20px 4px rgba(186, 208, 41, 0.47);
+}
+
+.container {
+    min-width: 700px;
+    width: 95%;
+}
+
+/* hide the default file input */
+input[type="file"] {
+    display: none !important;
+}
+
+/* custom upload styling */
+.custom-file-upload {
+    border: 1px solid #B9D029;
+    width: 300px;
+
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+
+    box-shadow: 0 0 20px 4px rgba(186, 208, 41, 0.47);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+    text-align: center;
+}
+
+.selector {
+    width: 350px;
+    margin: 0 auto;
+}
+
+#dhcpUpload {
+    display: none;
+}
+
+#resultFile {
+    display: none;
+}
+
+#resultFile a {
+    text-decoration: none;
+    color: #B9D029;
+}
+
+
+
+
